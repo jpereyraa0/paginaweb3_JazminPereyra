@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comparti tu historia-Bitácora Paranormal</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="contenedor">
+
+        <header id="encabezado">
+
+            <h1>Bitácora paranormal</h1>
+
+            <p>Leyendas. Casos reales. Misterios.</p>
+
+        </header>
+
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="abandonados.html">Lugares abandonados</a></li>
+                <li><a href="leyendas.html">Leyendas Urbanas</a></li>
+                <li><a href="espacio.html">Misterios del Espacio</a></li>
+                <li><a href="formulario.html">Compartí tu anécdota!</a></li>
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <section class="formulario">
+
+                <h2>¿Te pasó algo que no podes explicar?</h2>
+
+                <p>
+                    Compartí una leyenda, anécdota o historia familiar paranormal
+                </p>
+
+
+                <form action="formulario.html" method="POST" id="registroForm">
+
+                    <fieldset>
+
+                        <legend>Tu información</legend>
+
+
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Carlos Rodriguez" required> 
+
+
+                        <label for="gmail">Gmail:</label>
+                        <input type="gmail" id="gmail" name="gmail"  placeholder="Ej: carlos1@gmail.com" required> 
+                
+
+
+
+                       <label for="pais">¿De qué país sos?</label>
+
+                       <select id="pais" name="pais" required>
+                         <option value="">Seleccioná tu país</option>
+                         <option value="argentina">Argentina</option>
+                          <option value="chile">Chile</option>
+                          <option value="uruguay">Uruguay</option>
+                         <option value="paraguay">Paraguay</option>
+                         <option value="bolivia">Bolivia</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="peru">Perú</option>
+                       <option value="mexico">México</option>
+                       <option value="españa">España</option>
+                      <option value="otro">Otro</option>
+</select>
+
+
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha" name="fecha">
+
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>Tu historia</legend>
+
+
+                        <h3>Qué tipo de historia vas a compartir?</h3>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="experiencia">
+                            Experiencia paranormal
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="leyenda">
+                            Leyenda 
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="historiafam">
+                            Historia familiar
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="misterio">
+                            Misterio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="contenido" value="lugaranband">
+                            Lugar abandonado
+                        </label>
+                        <label>
+                            <input type="checkbox" name="contenido" value="otro">
+                           Otro
+                        </label>
+                    
+
+
+                        <h3>Cual es el tema principal de tu historia?</h3>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="lugar">
+                            Un lugar
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="persona">
+                            Una persona
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="objeto">
+                          Un objeto
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="contenido" value="acont">
+                            Un acontecimiento
+                        </label>
+                        <label>
+                            <input type="checkbox" name="contenido" value="otro">
+                           Otro
+                        </label>
+
+
+                        <label for="historia">Contanos tu historia:</label>
+
+                        <textarea id="historia" name="historia" rows="8"></textarea>
+
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>Confirmar</legend>
+                            <input type="checkbox" name="terminos" required>
+                            Acepto los términos.
+                        </label>
+
+                    </fieldset>
+
+                   <div class="botones"> 
+                   <a class="botoon" href="subir.html">Subir</a>
+
+                        <button type="reset">Reset</button>
+
+                    </div>
+
+                </form>
+
+            </section>
+
+        </main>
+
+
+        <footer id="pie">
+
+            <p>Jazmin Pereyra- 4A- 2026</p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Libre Baskerville', serif;
+    color: #e8dfd0;
+}
+
+
+#contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+
+#encabezado {
+    text-align: center;
+    padding: 100px 20px;
+    
+    background-image: url("img/gato.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#encabezado h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+#encabezado p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+
+nav {
+    background-color: #250a1ddc;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+
+nav a {
+    color: #e8dfd0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    color: #9b3d4b;
+}
+
+
+
+#banner {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #250f1e85;
+    margin-top: 20px;
+}
+
+
+#banner h2 {
+   font-family: 'Metamorphous', serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color:rgba(124, 6, 97, 0.726)
+}
+
+
+#banner p {
+    font-size: 17px;
+}
+
+
+
+main {
+    padding: 50px 0;
+}
+
+
+section {
+    padding: 50px 30px;
+    margin-bottom: 30px;
+    background-color: #2e0b1985;
+}
+
+
+section h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+section p {
+    line-height: 1.8;
+}
+
+
+
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.caja {
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    background-color: #4b052156;
+    border: 1px solid #180012;
+    transition: 0.3s;
+}
+
+.caja2 {
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    background-color: #4b052156;
+    border: 1px solid #180012;
+    transition: 0.3s;
+}
+
+.caja3 {
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    background-color: #4b052156;
+    border: 1px solid #180012;
+    transition: 0.3s;
+}
+.caja:hover {
+    transform: translateY(-5px);
+}
+.caja3:hover {
+    transform: translateY(-5px);
+}
+.caja2:hover {
+    transform: translateY(-5px);
+}
+
+
+.caja h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+}
+.caja2 h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+}
+.caja3 h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+}
+
+.cajaa{
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    background-color: #4b052156;
+    border: 1px solid #180012;
+    transition: 0.3s;
+}
+.cajaa h2 {
+    font-size: 15;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.cajaa p{
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 2px;
+    text-align: center;
+}
+
+
+.boton {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #65333d;
+    color: #e8dfd0;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 145px;
+}
+
+
+.boton:hover {
+    background-color: #8b4653;
+}
+
+
+
+.formulario {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+fieldset {
+    border: 1px solid #59423e;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+legend {
+    font-family: 'Cinzel', serif;
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
+input[type="text"],
+input[type="gmail"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #e8dfd0;
+    border: none;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #65333d;
+    color: #e8dfd0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: #8b4653;
+}
+
+fieldset {
+    border: 2px solid #e2e8f0;        
+    border-radius: 10px;                   
+    padding: 1.5rem;                   
+}
+
+fieldset:hover {
+    border-color: #cbd5e1;  
+}
+
+
+legend {
+    font-weight: 700;         
+    font-size: 1.1rem;        
+    color: #943a67;          
+    padding: 0 0.75rem;       
+    display: flex;
+    align-items: center;     
+    gap: 0.5rem;            
+}
+
+
+legend::before {
+    content: '';             
+    display: inline-block;    
+    width: 10px;
+    height: 10px;          
+    background:#92034b;          
+    border-radius: 30%;       
+}
+
+
+fieldset > div {
+    margin-bottom: 1.2rem;    
+}
+
+
+fieldset > div:last-child {
+    margin-bottom: 0;
+}
+
+
+label {
+    display: block;          
+    font-weight: 600;         
+    font-size: 0.9rem;       
+    color: #9e9e9e;           
+    margin-bottom: 0.35rem;   
+    cursor: pointer;          
+}
+
+
+input[type="text"],
+input[type="gmail"],
+input[type="fecha"],
+select,
+textarea {
+    width: 100%;                      
+    padding: 0.7rem 1rem;              
+    border: 2px solid #cbd5e1;         
+    border-radius: 8px;               
+    font-size: 0.95rem;
+    font-family: inherit;             
+    color: #1e293b;
+    background: #fffbf5;             
+    outline: none;                     
+}
+
+
+input[type="text"]:focus,
+input[type="gmail"]:focus,
+input[type="fecha"]:focus,¡
+select:focus,
+textarea:focus {
+    border-color: #550933;                        
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15); 
+    background: #ffffff;                            
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #94a3b8;      
+    font-style: italic; 
+}
+
+
+input[type="checkbox"] {
+    appearance: none;              
+    -webkit-appearance: none;     
+    width: 18px;
+    height: 18px;
+    border: 2px solid #cbd5e1;    
+    margin-right: 0.4rem;         
+    vertical-align: middle;        
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;                
+}
+
+
+input[type="radio"] {
+    border-radius: 50%;          
+}
+
+
+input[type="checkbox"] {
+    border-radius: 4px;
+}
+
+input[type="checkbox"]:checked {
+    border-color: #410a1f;
+    background: #580e2a;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+input[type="checkbox"]:hover {
+    border-color: #410a1f;   
+}
+
+
+input[type="radio"]:focus-visible,
+input[type="checkbox"]:focus-visible {
+    outline: 2px solid #410a1f;
+    outline-offset: 2px;         
+}
+
+
+fieldset > div > div {
+    display: flex;
+    flex-wrap: wrap;              
+    gap: 0.8rem 1.5rem;           
+    margin-top: 0.3rem;
+}
+
+
+fieldset > div > div label {
+    display: inline-flex;        
+    align-items: center;        
+    font-weight: 400;            
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    padding: 0.4rem 0.75rem;      
+    border-radius: 20px;         
+    background: #f1f5f9;        
+    border: 1px solid transparent; 
+}
+
+
+
+textarea {
+    resize: vertical;    
+    min-height: 80px;   
+    background-color: rgba(255, 255, 255, 0.904);  
+}
+
+form > div:has(input[name="terminos"]) {
+    display: flex;
+    align-items: flex-start;   
+    padding: 0.5rem 0;
+}
+
+form > div:has(input[name="terminos"]) label {
+    display: inline-flex;
+    align-items: flex-start;
+    font-weight: 400;          
+    font-size: 0.9rem;
+}
+
+.confirmacion {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+
+.confirmacion h2 {
+    font-size: 35px;
+}
+
+.botoon:hover{
+ background-color: #8b4653;
+}
+
+.botoon, button{
+    display: inline-block;   
+    width: auto;             
+    padding: 10px 20px;      
+    border: none;
+    background-color: #65333d;
+    color: #e8dfd0;   
+    font-size: 14px;         
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#pie {
+    text-align: center;
+    padding: 25px;
+    background-color: #0a080a7a;
+}
+
+#participar {
+background-image: linear-gradient(
+        rgba(24, 0, 18, 0.55), 
+        rgba(24, 0, 18, 0.55)
+    ),url(img/lechuza2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 20px;
+} 
+#participar .boton {
+text-align: center;
+padding: 25 px;
+margin-right: 160px;
+} 
+
+#participar p{
+text-align: center;
+padding: 25 px;
+}
+
+.submit{
+    text-align: center;
+    padding: 100px 20px;
+    
+    background-image: url("img/submit.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
